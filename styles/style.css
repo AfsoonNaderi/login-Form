@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fa9df5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* استایل فرم لاگین */
+.login-container {
+    height: 150px;
+    background-color: #ffe6f7;
+    padding: 1.5rem;
+    padding-right: 2.6rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 310px;
+    height: 290px;
+    text-align: center;
+}
+
+h2 {
+    color: #ff66b2;
+}
+
+.input-container {
+    margin: 10px 0;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ff66b2;
+    outline: none;
+    border-radius: 5px;
+}
+/* input:focus {
+    border: 2px solid #ff2090;
+} */
+input:focus {
+    border: 2px solid #ff2090;
+}
+button.submit-btn {
+    width: 107%;
+    padding: 10px;
+    margin-top: 2rem;
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.submit-btn:hover {
+    background-color: #ff3385;
+}
+
+/* استایل مودال */
+/* .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+} */
+
+.modal-content {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 4, 4, 0.791);
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 300px;
+}
+
+.close {
+    color: #aaa;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

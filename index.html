@@ -18,7 +18,8 @@
             </div>
             <div class="input-container">
                 <!-- <label for="password"> password </label> -->
-                <input placeholder="password" type="password" class="password" name="password">
+                <input placeholder="password" type="password" class="password" name="password" oninput="passWordValidation()">
+                <p id="message"></p>
             </div>
             <button  type="submit" class="submit-btn"> Log in</button>
         </form>

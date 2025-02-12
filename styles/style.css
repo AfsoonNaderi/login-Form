@@ -69,3 +69,17 @@ button.submit-btn:hover {
     text-align: center;
     width: 300px;
 }
+
+.invalid{
+    /* display: none; */
+    font-size: 13px;
+    color: red;
+    position: absolute;
+    padding-bottom: 10px;
+}
+.valid{
+    font-size: 13px;
+    color: rgb(30, 227, 0);
+    position: absolute;
+    padding-bottom: 10px;
+}

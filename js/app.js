@@ -31,6 +31,22 @@ function dataValidation(event) {
 }
 document.querySelector("#loginForm").addEventListener("submit", dataValidation);
 
+function passWordValidation(){
+    let message = document.getElementById('message');
+    if(passWord.value.length>=8){
+        message.classList.remove('invalid');
+        message.classList.add('valid');
+        message.textContent="Password is valid.";
+    }else{
+        message.classList.remove('valid');
+        message.classList.add('invalid');
+        message.textContent="Password must be at least 8 characters.";
+    }
+    // setTimeout(function(){
+    //     message.textContent="";
+    // },3000)
+
+}
 // setTimeout(function() {
 //     console.log("This message appears after 3 seconds");
 // }, 6000); // 3000 milliseconds = 3 seconds

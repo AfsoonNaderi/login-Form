@@ -25,6 +25,7 @@ function dataValidation(event) {
         modal.innerHTML = "";  
         userName.value = "";
         passWord.value = "";
+        document.getElementById('message').textContent = "";
     }, 2000)
 
     console.log(userNameValue,passWordValue);

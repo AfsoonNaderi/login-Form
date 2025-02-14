@@ -43,11 +43,5 @@ function passWordValidation(){
         message.classList.add('invalid');
         message.textContent="Password must be at least 8 characters.";
     }
-    // setTimeout(function(){
-    //     message.textContent="";
-    // },3000)
 
 }
-// setTimeout(function() {
-//     console.log("This message appears after 3 seconds");
-// }, 6000); // 3000 milliseconds = 3 seconds
